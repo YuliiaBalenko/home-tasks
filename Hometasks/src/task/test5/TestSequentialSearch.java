@@ -1,6 +1,5 @@
 package task.test5;
-
-import com.sun.tools.javac;
+import com.sun.tools.javac.util.ArrayUtils;
 import task.ITest;
 
 import java.lang.reflect.Array;
