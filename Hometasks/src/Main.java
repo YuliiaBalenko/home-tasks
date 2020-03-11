@@ -28,7 +28,7 @@ public class Main {
         testList[8] = new TestAccounting();
         testList[9] = new TestEmployee();
 
-
+        //test commit
         Scanner input = new Scanner(System.in);
 
         for (int i = 0; i < testList.length; i++)

@@ -1,9 +1,7 @@
 package task.test5;
-import com.sun.tools.javac.util.ArrayUtils;
+
 import task.ITest;
 
-import java.lang.reflect.Array;
-import java.lang.reflect.Executable;
 import java.util.Arrays;
 import java.util.Scanner;
 
