@@ -4,26 +4,26 @@ import java.util.Random;
 
 public class Employee {
 
-    private String _name;
-    private String _surname;
-    private int _id;
+    private String name;
+    private String surname;
+    private int id;
 
-    public Employee(String name, String surname, int id) {
-        _name = name;
-        _surname = surname;
-        _id = id;
+    public Employee(String setName, String setSurname, int setId) {
+        name = setName;
+        surname = setSurname;
+        id = setId;
     }
 
-    public Employee(String name, String surname) {
-        _name = name;
-        _surname = surname;
+    public Employee(String setName, String setSurname) {
+        name = setName;
+        surname = setSurname;
 
         Random r = new Random();
-        _id = r.nextInt(Integer.MAX_VALUE);
+        id = r.nextInt(Integer.MAX_VALUE);
     }
 
     public String print() {
-        return "Employe{" + "name='" + _name + '\'' + ", surname='" + _surname + '\'' + ", id=" + _id + '}';
+        return "Employee{" + "name='" + name + '\'' + ", surname='" + surname + '\'' + ", id=" + id + '}';
     }
 
 }
